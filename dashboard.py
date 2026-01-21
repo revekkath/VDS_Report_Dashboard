@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
-import seaborn as sns
+# import seaborn as sns
 
 # ---- Load CSV ----
 df = pd.read_csv("deaths_clean.csv")
@@ -75,3 +75,4 @@ st.pyplot(fig4)
 # ---- Optional: Show filtered data ----
 if st.checkbox("Show filtered data"):
     st.dataframe(filtered_df)
+
